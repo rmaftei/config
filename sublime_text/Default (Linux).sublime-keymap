@@ -1,0 +1,5 @@
+[
+	{ "keys": ["alt+enter"], "command": "code_intel_auto_complete" },
+	{ "keys": ["f3"], "command": "goto_python_definition"},
+	{ "keys": ["ctrl+g"], "command": "back_to_python_definition"}
+]
