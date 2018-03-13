@@ -1,0 +1,7 @@
+# autostart
+
+feh --bg-fill -r /usr/share/backgrounds/linuxmint-serena/original.jpg
+
+tint2 &
+
+
