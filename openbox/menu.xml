@@ -23,12 +23,13 @@
   <item label="Reconfigure">
     <action name="Reconfigure" />
   </item>
-  <item label="Restart">
+  <!-- <item label="Restart">
     <action name="Restart" />
-  </item>
+  </item> -->
   <separator />
   <item label="Exit">
-    <action name="Exit" />
+    <!-- <action name="Exit" /> -->
+    <action name="Execute"><execute>bl-exit</execute></action>
   </item>
 </menu>
 

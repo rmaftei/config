@@ -328,10 +328,10 @@
           <enabled>true</enabled>
           <name>Run Program</name>
         </startupnotify>
-        <command>gmrun</command>
+        <command>rofi -show run</command>
       </action>
     </keybind>
-    <keybind key="A-F3">
+    <!-- <keybind key="A-F3">
       <action name="Execute">
         <startupnotify>
           <enabled>false</enabled>
@@ -339,14 +339,14 @@
         </startupnotify>
         <command>~/.config/dmenu/dmenu-bind.sh</command>
       </action>
-    </keybind>
+    </keybind> -->
     <keybind key="W-f">
       <action name="Execute">
         <startupnotify>
           <enabled>false</enabled>
           <name>File Manager</name>
         </startupnotify>
-        <command>bl-file-manager</command>
+        <command>thunar</command>
       </action>
     </keybind>
     <keybind key="W-t">
@@ -382,7 +382,7 @@
           <enabled>false</enabled>
           <name>Editor</name>
         </startupnotify>
-        <command>bl-text-editor</command>
+        <command>xed</command>
       </action>
     </keybind>
     <keybind key="W-m">
@@ -391,7 +391,7 @@
           <enabled>false</enabled>
           <name>Mediaplayer</name>
         </startupnotify>
-        <command>bl-media-player</command>
+        <command>vlc</command>
       </action>
     </keybind>
     <keybind key="W-h">
